@@ -244,7 +244,7 @@
     "resources": [
         {
             "apiVersion": "2019-10-01",
-            "name": "${dynamic.start}",
+            "name": "pid-2551958c-2465-5e2e-8e28-0b3a4babf3f0",
             "type": "Microsoft.Resources/deployments",
             "properties": {
                 "mode": "Incremental",
@@ -449,7 +449,7 @@
         },
         {
             "apiVersion": "2019-10-01",
-            "name": "${dynamic.end}",
+            "name": "pid-93da13bf-11f6-5bfb-9b51-7deb152a21c3",
             "type": "Microsoft.Resources/deployments",
             "dependsOn": [
                 "[resourceId('Microsoft.Resources/deployments', 'clusterLinkedTemplate')]",
